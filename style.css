@@ -1,0 +1,198 @@
+/* this is for..... */
+*{box-sizing: border-box;}
+
+body{
+ background: lightblue url("wave.JPEG") no-repeat fixed center; 
+}
+
+.box{
+	width: 1280px;
+	min-height: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+	display: table;
+}
+
+section{
+	width: 100%;
+	min-height: 50px;
+    clear: both;
+	display: table;
+
+	font-size:20px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+.column{
+	float: left;
+    min-height: 50px;
+	margin-bottom: -4px; /* this is needed for inline-block bug */
+	border: 1px solid black;
+}
+
+.col2{width: 50%;}
+.col3{width: 33.3333%;}
+.col32{width: 66.66%;}
+.col4{width: 25%;}
+.col43{width: 75%;}
+.col5{width: 20%;}
+.col54{width: 80%;}
+.col6{width:60%}
+
+header{
+	width: 100%;
+	text-align:center;
+	padding:50px;
+	font-family:'Fredoka One', cursive;
+	font-size:50px;
+	color:white;
+	
+
+}
+
+footer{
+	width: 100%;
+	clear: both;
+	padding: 30px;
+	text-align:center;
+	color:white;
+}
+
+
+nav{
+	width: 100%;
+	clear: both;
+	padding: 30px;	
+	border: 1px solid black;
+	text-align:center;
+	
+}
+nav a{
+text-decoration:none;
+color:black; 
+margin:10px 10px;
+color:white;
+}
+nav a:hover{
+background:#4169E1;
+
+}
+img{
+width:100px;
+height:100px;
+
+}
+h1{
+font-size:40px;
+text-align:center;
+color:white;
+
+}
+h2{
+text-align:center;	
+font-size:40px;
+color:white;
+}
+
+   
+	.usa{
+	text-align:center;
+	color:white;
+    	
+	}
+	.aus{
+	text-align:center;
+    color:white;	
+	}
+	.sin{
+	text-align:center;
+	color:white;
+	
+	}
+	.ind{
+	text-align:center;	
+	color:white;
+	 
+	}
+	.can{
+	text-align:center;	
+	color:white; 
+	}
+	.chi{
+	text-align:center;	
+	color:white;
+	}
+	.mal{
+	text-align:center;	
+	color:white;
+	}
+	.eur{
+	text-align:center;	
+	color:white;
+	}
+	.text3{
+		text-align:center;
+        color:white;	
+        font-weight:900;			
+	}
+	
+	
+	
+h3{
+	color:white;
+	text-align:center;
+	
+}		
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+	text-align:center;
+	
+	
+	
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+label{
+	color:white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #575350;
+    padding: 20px;
+}
+p{
+	text-align:center;
+	color:white;	
+}
+
+strong{
+	display:block;
+	
+}
